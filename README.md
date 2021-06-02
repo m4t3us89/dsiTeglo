@@ -16,7 +16,7 @@ npm run dev
 | Gerente | hlQ7dN5W5MwtEMj2OIa17a |
 | Cliente | hlQ7dN5W5MwtEMj2OIa17b |
 
-**Para todas as requisições é necessário informar o token de acesso (Authorization)**
+**Para todas as requisições é necessário informar o token de acesso (Authorization).**
 
 **Produto**
 | Método  |   Path   |
@@ -27,5 +27,5 @@ npm run dev
 | PUT    | /product/{id} |
 | DELETE | /product/{id} |
 
-*Para perfil gerente no método get (listar) pode paginar a consulta utilizando as query params (offset e limit).
+
 
