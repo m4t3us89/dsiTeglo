@@ -21,11 +21,11 @@ npm run dev
 **Produto**
 | Método  |   Path   | Body | Query |
 | ------ | ------ |
-| GET    | /product |  -  |  offset={n}&limit={n}  |  
-| GET    | /product/{id} |  -  | - |
-| POST   | /product      | { name:Sting } | - |
-| PUT    | /product/{id} | { name:String } | - |
-| DELETE | /product/{id} | -   | - |
+| GET    | /product      |  -              |  offset={n}&limit={n}  |  
+| GET    | /product/{id} |  -              | -                      |
+| POST   | /product      | { name:Sting }  | -                      |
+| PUT    | /product/{id} | { name:String } | -                      |
+| DELETE | /product/{id} | -               | -                      |
 
 
 
