@@ -19,6 +19,7 @@ npm run dev
 **Para todas as requisições é necessário informar o token de acesso (Authorization)**
 
 produto
+| Método  |   Path   |
 | ------ | ------ |
 | GET    | /product |
 | GET    | /product/{id} |
