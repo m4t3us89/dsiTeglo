@@ -19,13 +19,13 @@ npm run dev
 **Para todas as requisições é necessário informar o token de acesso (Authorization).**
 
 **Produto**
-| Método  |   Path   |
+| Método  |   Path   | Body | Query |
 | ------ | ------ |
-| GET    | /product |
-| GET    | /product/{id} |
-| POST   | /product
-| PUT    | /product/{id} |
-| DELETE | /product/{id} |
+| GET    | /product |  -  |  offset={n}&limit={n}  |  
+| GET    | /product/{id} |  -  | - |
+| POST   | /product      | { name:Sting } | - |
+| PUT    | /product/{id} | { name:String } | - |
+| DELETE | /product/{id} | -   | - |
 
 
 
